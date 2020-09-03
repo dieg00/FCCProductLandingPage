@@ -7,4 +7,10 @@ header {
 .navigation {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+.navItem {
+	margin-right: 10px;
 }
