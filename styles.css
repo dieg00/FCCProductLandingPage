@@ -1,3 +1,8 @@
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
 body {
 	background-color: #e6e6e6;
 	margin-top: 0;
@@ -11,10 +16,6 @@ main {
 	padding-top: 4.5vw;
 }
 
-nav {
-	padding-right: 10px;
-}
-
 .navigation {
 	display: flex;
 	flex-direction: row;
@@ -22,7 +23,7 @@ nav {
 	list-style-type: none;
 }
 
-.navItem {
+.nav-link {
 	font-family: "Syne", sans-serif;
 	margin-right: 6vw;
 }
@@ -39,4 +40,8 @@ nav {
 #header-img {
 	height: 3vw;
 	padding-top: 10px;
+}
+
+#nav-bar {
+	padding-right: 10px;
 }
