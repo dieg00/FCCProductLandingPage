@@ -13,7 +13,20 @@ footer {
 }
 
 main {
-	padding-top: 4.5vw;
+	padding-top: 7vh;
+}
+
+.inputEmail {
+	font-family: "Kumbh Sans", sans-serif;
+}
+
+.introEmail {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-family: "Kumbh Sans", sans-serif;
+	font-weight: 600;
+	font-size: 3vh;
 }
 
 .navigation {
@@ -28,6 +41,29 @@ main {
 	margin-right: 6vw;
 }
 
+#button {
+	height: 3vh;
+	width: 10vw;
+}
+
+#email {
+	border: 1px solid grey;
+	border-radius: 4px;
+	height: 3vh;
+	width: 20vw;
+	padding: 0.8vh 0.6vh 0.8vh 0.6vh;
+}
+
+#email:focus {
+	border: 3px solid orange;
+}
+
+#form {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
 #header {
 	background-color: #e6e6e6;
 	display: flex;
@@ -38,7 +74,7 @@ main {
 }
 
 #header-img {
-	height: 3vw;
+	height: 5vh;
 	padding-top: 10px;
 }
 
