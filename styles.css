@@ -1,25 +1,18 @@
 body {
 	background-color: #e6e6e6;
+	margin-top: 0;
 }
 
 footer {
 	background-color: #b5b5b5;
 }
 
-header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	position: absolute;
-}
-
 main {
-	padding-top: 7vw;
+	padding-top: 4.5vw;
 }
 
-.logoImage {
-	height: 2.4vw;
-	padding-top: 10px;
+nav {
+	padding-right: 10px;
 }
 
 .navigation {
@@ -30,5 +23,20 @@ main {
 }
 
 .navItem {
-	margin-right: 10px;
+	font-family: "Syne", sans-serif;
+	margin-right: 6vw;
+}
+
+#header {
+	background-color: #e6e6e6;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: fixed;
+	width: 100%;
+}
+
+#header-img {
+	height: 3vw;
+	padding-top: 10px;
 }
